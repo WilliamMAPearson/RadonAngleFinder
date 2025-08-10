@@ -1,0 +1,6 @@
+.venv/
+*.pyc
+project/src/dataset_train/images/*.png
+!project/src/dataset_train/images/.gitkeep
+project/src/dataset_train/masks/*.png
+!project/src/dataset_train/masks/.gitkeep
