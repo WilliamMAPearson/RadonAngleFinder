@@ -12,9 +12,20 @@ The first image illustrates how a Radon transform generates a sinogram. It shows
   <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/1%20radon_projections_output.png" width="500">
 </p>
 
+However, the lines are not always easily discernable within a grain image, for example the next image. Which shows a noisy image. 
+<p align="center">
+  <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/dataset/images/Grain%201.png" width="500">
+</p>
 
+Running a radon transform on this type of image will not lead to accurate results, this image shows the type of result to expect when using noisy data.
+<p align="center">
+  <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/2%20non_segmented_output.png" width="500">
+</p>
 
-
+One method to help with this is to segment the image to only view the peaks of the data set, as shownin this image below.
+<p align="center">
+  <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/3%20segmented_output.png" width="500">
+</p>
 
 ---
 
