@@ -27,8 +27,6 @@ One approach to improve line detection is to segment the image to isolate the pr
   <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/3%20segmented_output.png" width="500">
 </p>
 
-This
-
 ---
 
 ## Setup Instructions
