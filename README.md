@@ -22,10 +22,12 @@ Running a radon transform on this type of image will not lead to accurate result
   <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/2%20non_segmented_output.png" width="500">
 </p>
 
-One method to help with this is to segment the image to only view the peaks of the data set, as shownin this image below.
+One approach to improve line detection is to segment the image to isolate the prominent features. However, this method struggles when the data is heavily corrupted by noise. This project addresses that challenge by training a machine learning model to accurately extract relevant details from noisy images, enabling a successful Radon transform to detect lines more precisely. The model is able to add context to the segmentation to help the segmentation of lines found within the image. The image here demonstrates the model’s segmentation output on a noisy dataset and shows how the resulting Radon transform sinogram is significantly enhanced, making it much easier to identify the angles of the lines within the grain.
 <p align="center">
   <img src="https://github.com/WilliamMAPearson/RadonAngleFinder/blob/main/src/readme_images/3%20segmented_output.png" width="500">
 </p>
+
+This
 
 ---
 
